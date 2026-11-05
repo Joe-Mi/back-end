@@ -1,0 +1,33 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back-end(api) for an agentic delivery app.",
+  "license": "ISC",
+  "author": "joe Mitema",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.3.4",
+    "@langchain/google-genai": "^2.3.4",
+    "@langchain/langgraph": "^1.7.0",
+    "@langchain/openai": "^1.8.0",
+    "@sequelize/core": "^7.0.0-alpha.48",
+    "@sequelize/postgres": "^7.0.0-alpha.48",
+    "axios": "^1.21.0",
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "joi": "^18.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "langchain": "^1.6.1",
+    "langsmith": "^0.11.8",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1",
+    "zod": "^4.6.7"
+  }
+}
